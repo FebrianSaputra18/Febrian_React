@@ -11,8 +11,8 @@ class Header extends React.Component {
           <div className="menu">
             <ul>
               <li>Home</li>
-              <li>Home</li>
-              <li>Home</li>
+              <li>Contact</li>
+              <li>About</li>
             </ul>
           </div>
         </div>

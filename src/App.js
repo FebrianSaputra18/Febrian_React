@@ -1,11 +1,8 @@
-import './App.css';
-import Components from './Materi/Components/Components';
+import Index from "./Materi/Style/Index";
 
 function App() {
   return (
-    <div>
-      <Components />
-    </div>
+      <Index />
   );
 }
 
