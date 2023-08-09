@@ -1,6 +1,5 @@
 import React from "react";
 import "./footer.scss";
-import topi  from '../../../Images/mugiwara.png'
 
 
 const Footer = () => {
@@ -8,7 +7,6 @@ const Footer = () => {
     <footer>
       <div className="list">
         <div className="log">
-            <img src={topi} alt="mugi" />
             <h1>Mugi-MugiWaras</h1>
         </div>
         <div className="item1">

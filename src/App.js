@@ -1,9 +1,8 @@
-import Index from "./Materi/Style/Index";
+import './index.css';
+import Layout from "./Materi/Component/Layout/Layout";
 
 function App() {
-  return (
-      <Index />
-  );
+  return <Layout/>
 }
 
 export default App;

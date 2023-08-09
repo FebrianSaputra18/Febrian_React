@@ -6,6 +6,8 @@ import Skill from "./Skill";
 import topi  from '../../../Images/mugiwara.png'
 
 const Home = () => {
+
+ 
   return (
     <body>
       <Navbar />
@@ -16,6 +18,8 @@ const Home = () => {
           <div className="feat">
             <button>Skill</button>
             <button>Portofolio</button>
+
+            <button>Product</button>
           </div>
           <div className="ket">
             <p>
@@ -30,6 +34,7 @@ const Home = () => {
       </div>
       <Portofolio />
       <Skill />
+      
     </body>
   );
 };
