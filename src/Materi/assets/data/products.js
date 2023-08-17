@@ -7,6 +7,10 @@ import productImg6 from "../Images/dfruits/imgMeronomi.jpg";
 import productImg7 from "../Images/dfruits/imgMochinomi.jpg";
 import productImg8 from "../Images/dfruits/imgMokunomi.jpg";
 
+// const products = {'1': {id: '1', name: 'buah'}, '2': {id: '2', name: 'buah2'}}
+
+// products[`${id}`] call
+
 const products = [
     {
         id:'1',

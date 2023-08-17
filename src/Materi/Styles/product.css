@@ -6,7 +6,6 @@
     width: 20rem;
     height: 300px;
     object-fit:cover;
-    
 }
 .productInfo h3 a{
     font-size: 1.2rem;
@@ -33,6 +32,4 @@
     background: var(--primary-color);
     color: #fff;
     border-radius: 50px;
-    display: flex;
-    justify-content: space-between;
 }

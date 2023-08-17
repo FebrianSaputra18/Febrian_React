@@ -11,8 +11,8 @@ const navLink = [
     display: "Home",
   },
   {
-    path: "shop",
-    display: "Shop",
+    path: "profile",
+    display: "Profile",
   },
   {
     path: "cart",
@@ -50,12 +50,12 @@ const Header = () => {
             </div>
             <div className="navIcons">
               <span className="favIcon">
-                <i class="ri-bard-fill"></i>
+                <i className="ri-bard-fill"></i>
                 <span className="badge">1</span>
               </span>
               <span className="cartIcon">
-                <i class="ri-shopping-bag-line"></i>
-                <span className="badge">1</span>
+                <i className="ri-shopping-bag-line"></i>
+                <span className="badge"></span>
               </span>
               <span>
                 <motion.img

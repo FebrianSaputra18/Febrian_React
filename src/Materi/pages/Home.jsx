@@ -64,9 +64,9 @@ const Home = () => {
               <Col lg="12">
                 <h2 className="sectionTitle">Trending Products</h2>
               </Col>
-                <div className="cardContent">
+              <div className="cardContent">
                 <ProductList data={trendingProduct} />
-                </div>
+              </div>
             </Row>
           </Container>
         </section>

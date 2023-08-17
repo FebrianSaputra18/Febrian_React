@@ -1,0 +1,48 @@
+p{
+    color: rgb(41, 41, 41);
+}
+.detail{
+    display: flex;
+    border-bottom: 1px solid rgb(41, 41, 41);
+}
+.dec{
+    display: flex;
+}
+.cartRow{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    align-content: center;
+    border: 1px solid #000000;
+    margin: 20px;
+}
+.cartImg{
+    width: 20rem;
+    padding: 5px;
+    object-fit:cover;
+    border-right: 1px solid #000000;
+}
+.cartBtn{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+.btnDelete{
+    height: 2rem;
+    width: 6rem;
+    border: none;
+    background-color: rgb(41, 41, 41);
+    color: var(--hero-bg);
+    font-size: 16px;
+    font-weight: 550;
+}
+.btnPayment{
+    height: 2rem;
+    width: 6rem;
+    border: none;
+    color: rgb(41, 41, 41);
+    background-color: var(--hero-bg);
+    font-size: 16px;
+    font-weight: 550;
+
+}
