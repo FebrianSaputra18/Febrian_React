@@ -52,7 +52,7 @@ const Shop = () => {
                 </div>
               </div>
               <div className="bin">
-                <Link to={`/Cart/${item.id}`}>
+                <Link to={`/Cart`} state={{ from: "occupation" }}>
                   <button className="btn">Buy</button>
                 </Link>
               </div>

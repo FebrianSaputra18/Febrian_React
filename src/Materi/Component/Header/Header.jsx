@@ -18,6 +18,10 @@ const navLink = [
     path: "cart",
     display: "Cart",
   },
+  {
+    path: "form",
+    display: "Form",
+  },
 ];
 
 const Header = () => {

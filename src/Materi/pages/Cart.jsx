@@ -1,11 +1,15 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { useLocation, useParams } from "react-router-dom";
 import products from "../assets/data/products";
 import "../Styles/cart.css";
 import { ButtonBase, Grid, Paper, Typography } from "@mui/material";
 import styled from "@emotion/styled";
 import { brown } from "@mui/material/colors";
 const Cart = () => {
+  const location = useLocation()
+  const { from } = location.state
+  
+  console.log(from)
   let { id } = useParams();
   const item = products.find((product) => product.id === id);
   const Img = styled("img")({
@@ -56,6 +60,9 @@ const Cart = () => {
                 <Typography variant="subtitle1" component="div">
                   Rp.{item.harga}
                 </Typography>
+                <Typography variant="subtitle1" component="div">
+                  { `Jumlah ${from}`}
+                </Typography>
               </Grid>
             </Grid>
           </Grid>
@@ -102,5 +109,5 @@ const Cart = () => {
     </>
   );
 };
-
 export default Cart;
+

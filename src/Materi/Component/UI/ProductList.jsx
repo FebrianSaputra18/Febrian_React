@@ -1,6 +1,5 @@
 import React from 'react'
 import ProductCard from './ProductCard'
-import Shop from '../../pages/Shop'
 
 const ProductList = ({data}) => {
   return (
