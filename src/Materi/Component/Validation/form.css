@@ -60,6 +60,14 @@ button:hover{
 .error{
     color: red;
 }
+.alert{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding-top: 30px;
+    color: var(--hero-bg);
+    font-weight: 600;
+}
 p{
     display: flex;
     align-content: center;

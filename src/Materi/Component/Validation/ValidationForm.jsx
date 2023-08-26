@@ -106,6 +106,11 @@ const ValidationForm = () => {
       <div className="title">
         <h2>Pendaftaran Nakama</h2>
         <h2>Mugi - MugiWaras</h2>
+        {showAlert && (
+        <div className="alert">
+          Form submitted! Thank you!
+        </div>
+      )}
       </div>
       <div className="myform">
         <form onSubmit={handleSubmit}>
@@ -205,11 +210,7 @@ const ValidationForm = () => {
           </div>
           <button type="submit">Submit</button>
         </form>
-        {showAlert && (
-        <div className="alert">
-          Form submitted! Thank you.
-        </div>
-      )}
+        
       </div>
   
     </div>
