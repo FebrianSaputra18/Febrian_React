@@ -1,0 +1,91 @@
+.bForm{
+    background-color: rgb(250,235,215);
+    height: 100vh;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    display: flex;
+}
+.myform{
+    display: flex;
+    justify-content: center;
+
+}
+h2{
+    display: flex;
+    justify-content: center;
+}
+form{
+    width: 400px;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    gap: 20px
+    ;
+
+
+}
+.formInput{
+    border: none;
+    height: 2rem;
+    width: 400px;
+    background: rgb(200, 188, 171);  
+    font-size: 16px; 
+    padding-left: 20px;
+     
+}
+.formInput:hover{
+    border-radius: 15px;
+}
+.formInput:focus{
+    outline: none !important;
+    border-color:rgb(243,166,23);
+    box-shadow: 0 0 5px rgb(243,166,23);
+}
+button{
+    height: 30px;
+    border: none !important;
+    cursor: pointer;
+    margin-bottom: 40px;
+    background-color: rgb(243,166,23);
+    font-weight: 600;
+
+    font-size: 16px;
+    color: white;
+}
+button:hover{
+    border-radius: 15px;
+    
+}
+.error{
+    color: red;
+}
+p{
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+.formCheckBox{
+    display: flex;
+    justify-content: space-around;
+}
+.chkbox{
+    height: 30px;
+    width: 40px;
+}
+.select{
+    height: 30px;
+    border: none !important;
+    cursor: pointer;
+    margin-bottom: 40px;
+    background-color: rgb(243,166,23);
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    width: 100vw;
+    text-align: center;
+}
+.select:hover{
+    border-radius: 15px;
+    
+}
